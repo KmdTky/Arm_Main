@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% レポートテンプレート
+%
+% updated 22 Oct, 2018
+% last updated 02 Apr, 2021
+%
+% (c) Tohru TAKADA@UEC
+% 各自のレポートに合わせて変更して使ってください．上記の行は残して使うこと．
+% 2次配布可です．ご利用は計画的に．
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,10pt]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{otf}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage[compatibility=false]{caption}
+
+
+\usepackage[version=3]{mhchem}
+\setlength{\textwidth}{165mm} %165mm-marginparwidth
+\setlength{\marginparwidth}{40mm}
+\setlength{\textheight}{225mm}
+\setlength{\topmargin}{-5mm}
+\setlength{\oddsidemargin}{-3.5mm}
+
+\makeatletter
+%\def\section{\@startsection {section}{1}{\z@}{-3.5ex plus -1ex minus % -.2ex}{2.3ex plus .2ex}{\Large\bf}}
+\def\section{\@startsection {section}{1}{\z@}{-3.5ex plus -1ex minus
+-.2ex}{2.3ex plus .2ex}{\normalsize\bf}}
+\makeatother
+
+\makeatletter
+\def\subsection{\@startsection {subsection}{1}{\z@}{-3.5ex plus -1ex minus
+-.2ex}{2.3ex plus .2ex}{\normalsize\bf}}
+\makeatother
+
+\makeatletter
+\def\@seccntformat#1{\@ifundefined{#1@cntformat}%
+   {\csname the#1\endcsname\quad}%      default
+   {\csname #1@cntformat\endcsname}%    enable individual control
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%
+%% 通常は指定の表紙を付けて印刷して提出していますが，電子データをアップロードする際は
+%% 表紙は付けなくても結構です．冒頭にタイトル，所属，学籍番号，氏名と記載日
+%% 修正版を提出する際は更新日を書いてください
+%
+\begin{center}
+{\Large{\bf ARM-Main-parts}} \\
+{\bf 電気通信大学 \ajRoman{2}類\\
+2512060 鎌田拓也} \\
+{\bf\today}
+\end{center}
+
+\section{パーツ}
+\begin{enumerate}
+    \item NJM317F \url{https://akizukidenshi.com/catalog/g/g108679/}
+    \item ヒートシンク \url{https://akizukidenshi.com/catalog/g/g105049}
+    \item 汎用整流用ダイオード 1000V1A 1N4007 *2個\url{https://akizukidenshi.com/catalog/g/g100934/}
+    \item トグルスイッチ　\url{https://akizukidenshi.com/catalog/g/g112406/}
+    \item ムラタ表面実装DCDCコンバーター OKL-T/6-W12N-C \url{https://akizukidenshi.com/catalog/g/g106187/}
+    \item 半固定ボリューム 20kΩ \url{https://akizukidenshi.com/catalog/g/g106111/}
+    \item 半固定ボリューム 2kΩ \url{https://akizukidenshi.com/catalog/g/g106108}
+    \item XHコネクター \url{https://akizukidenshi.com/catalog/g/g112248/}
+    \item XT30コネクター オス XT30U-M \url{https://akizukidenshi.com/catalog/g/g117951/}
+    \item 3mm赤色LED \url{https://akizukidenshi.com/catalog/g/g111577/}
+    \item 3mm緑色LED \url{https://akizukidenshi.com/catalog/g/g111637/}
+    \item ピンヘッダ\url{https://akizukidenshi.com/catalog/g/g100167/}
+    \item ピンソケット\url{https://akizukidenshi.com/catalog/g/g105779/}
+    \item TLP2531*2個 \url{https://akizukidenshi.com/catalog/g/g115112/}
+    \item TLP559 \url{https://akizukidenshi.com/catalog/g/g107690/}
+    \item 2回路入3ステートバスバッファー TC7WH241FK \url{https://akizukidenshi.com/catalog/g/g110884/}
+    \item Raspberry Pi Zero 2 WH \url{https://akizukidenshi.com/catalog/g/g129607/}
+    \item カーボン抵抗(炭素皮膜抵抗) 1/4W1kΩ \url{https://akizukidenshi.com/catalog/g/g125102/}
+    \item カーボン抵抗(炭素皮膜抵抗) 1/4W1.2kΩ\url{URhttps://akizukidenshi.com/catalog/g/g125122/}
+    \item カーボン抵抗(炭素皮膜抵抗) 1/4W20kΩ \url{https://akizukidenshi.com/catalog/g/g103940/}
+    \item カーボン抵抗(炭素皮膜抵抗) 1/4W2kΩ \url{https://akizukidenshi.com/catalog/g/g125202/}
+    \item カーボン抵抗(炭素皮膜抵抗) 1/4W180Ω \url{https://akizukidenshi.com/catalog/g/g125181/}
+    \item 積層セラミックコンデンサー 22μF50V X7S 5mm \url{https://akizukidenshi.com/catalog/g/g108156/}
+    \item 積層セラミックコンデンサー 0.1μF250V X7R 5mmピッチ*2個\url{https://akizukidenshi.com/catalog/g/g110147/}
+    \item 積層セラミックコンデンサー 10μF50V X7S 5mm\url{https://akizukidenshi.com/catalog/g/g108155/}
+    \item 電解コンデンサー10μF50V105℃ ルビコンPX\url{https://akizukidenshi.com/catalog/g/g117897/}
+    \item 電解コンデンサー100μF25V105℃ ルビコンPX\url{https://akizukidenshi.com/catalog/g/g117877/}
+    \item 電解コンデンサー47μF35V105℃ ルビコンPX\url{https://akizukidenshi.com/catalog/g/g117887/}
+
+\end{enumerate}
+
+
+
+\end{document}
