@@ -13899,7 +13899,7 @@
 		(layer "Edge.Cuts")
 		(uuid "72edc2ba-7717-4656-84d3-2bbe7c491668")
 	)
-	(gr_text "ARM_Main_ver4"
+	(gr_text "ARM_Main_ver5"
 		(at 158.6 42.6 0)
 		(layer "F.SilkS")
 		(uuid "a9310668-7bc1-4d0a-991d-a1186efc3ad2")
