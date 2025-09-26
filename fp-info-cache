@@ -1,4 +1,4 @@
-26655694529052389
+26657455295824498
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104678,6 +104678,13 @@ SPDT
 3
 3
 Togle_original
+Hadou_Sw
+
+
+0
+2
+2
+Togle_original
 TogleSW3pin
 
 
@@ -104689,8 +104696,8 @@ Togle_original
 
 
 0
-0
-0
+2
+2
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
