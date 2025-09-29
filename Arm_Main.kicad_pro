@@ -521,7 +521,7 @@
       "plot": "Gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../step/Arm_Main.step",
+      "step": "Arm_Main.step",
       "svg": "",
       "vrml": ""
     },

@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ARM_Main")
-		(date "2025-09-03")
+		(date "2025-09-30")
+		(rev "ver9")
 		(company "Takuya Kamada")
 	)
 	(lib_symbols
@@ -6269,7 +6270,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 80.01)
+			(xy 101.6 74.93) (xy 101.6 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7349,7 +7350,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 74.93) (xy 83.82 74.93)
+			(xy 86.36 74.93) (xy 83.82 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7937,7 +7938,7 @@
 	)
 	(global_label "+5V_Digital"
 		(shape output)
-		(at 88.9 74.93 0)
+		(at 86.36 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7947,7 +7948,7 @@
 		)
 		(uuid "711d0a62-9abe-4d76-9fa1-abb4f08bf798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8918 74.93 0)
+			(at 100.3518 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8048,7 @@
 	)
 	(global_label "+5V_Analog"
 		(shape output)
-		(at 101.6 76.2 90)
+		(at 101.6 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8057,7 +8058,7 @@
 		)
 		(uuid "d2019cce-7193-4f87-b550-3459a5604070")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 62.0269 90)
+			(at 115.7731 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12383,7 +12384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "heatsync:heatsink23.5_17_25mm"
+		(property "Footprint" "Heatsync:heatsink23.5_17_25mm"
 			(at 216.8652 52.07 0)
 			(effects
 				(font
