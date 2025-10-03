@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2025-10-01T23:59:14+09:00"
+    "CreationDate": "2025-10-03T16:46:12+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Arm_Main",
       "GUID": "41726d5f-4d61-4696-9e2e-6b696361645f",
-      "Revision": "ver.9"
+      "Revision": "ver.10.1"
     },
     "Size": {
       "X": 100.05,
